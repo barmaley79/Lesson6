@@ -1,0 +1,260 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*END RESET.CSS*/
+
+
+.body{
+    font-family: 'Lato', sans-serif;;
+}
+.wrapper{
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+}
+.center{
+    max-width: 1150px;
+    width: 100%;
+    margin:0 auto ;
+}
+
+.container3{
+    background-color: aliceblue;
+    height: 50vh;
+    max-height: 400px;
+}
+.container3 h4{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 80px;
+    color:black;
+}
+.container3 .info{
+    text-align: center;
+    font-size: 18px;
+    font-weight: regular;
+    padding-top: 30px;
+    color:darkgray;
+}
+.container4{
+    background-color:#ffffff;
+    height: 50vh;
+    max-height: 400px;
+}
+.insert{
+    height: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.box{
+    width: 1150px;
+    height: 100px;
+    display: table;
+}
+.row{
+    width: 100%;
+    height: 100px;
+    display: table-row;
+}
+.block1{
+   width: 33%;
+   height: 20vh;
+   padding: 10vh;
+   display: table-cell;
+   text-align: center;
+}
+.block1 h5{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+    color:black;
+}
+.block1 .intro{
+    text-align: center;
+    font-size: 15px;
+    font-weight: regular;
+    padding-top: 10px;
+    color:darkgrey; 
+}
+
+.container5 {
+    background-image: url('./Pictures/Road2.PNG');
+    filter: brightness(45%);
+    height: 90vh;
+    max-height: 780px;
+    width: 100%; 
+}
+.container5 h4{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 40px;
+}
+.container5 h5{
+    text-align: center;
+    font-size: 20px;
+    font-weight: regular;
+    padding-top: 15px;
+}
+.container5 .box1{
+    width: 400px;
+    height: 10vh;
+    border: 1px solid white;
+    margin: 0 auto;
+    margin-top: 3vh;
+    
+}
+.container5 .box2{
+    width: 400px;
+    height: 25vh;
+    border: 1px solid white;
+    margin: 0 auto;
+    margin-top: 3vh;
+}
+.box_text1{
+    color: seashell;
+    font-size: 18px;
+    padding-top: 5vh;
+    margin-left: 12px;
+}
+.box1 h6{
+    color:seashell;
+    font-size: 18px;
+    padding-top: 3.5vh;
+    margin-left: 12px;
+}
+.box2 h6{
+    color:seashell;
+    font-size: 18px;
+    padding-top: 3.5vh;
+    margin-left: 12px;
+}
+.email_box{
+    width: 10px;
+    height: 10px;
+    background-color: #ffffff;
+    display: inline-block;
+    margin-left: 375px;
+}
+.email_send{
+    display: inline-block;
+    color:#ffffff;
+    font-size: 18px;
+}
+.container5 .btn{
+    text-align: center;
+    margin-top: 2vh;
+    display: inline-block;
+    margin-left: 120px;
+    
+}
+.container5 .btn a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    border: 1px solid #15a4fa;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.container6 {
+    background-color: seashell;
+    height: 15vh;
+    max-height: 120px;
+    width: 100%;
+}
+.container6 h6{
+    color:black;
+    font-size: 18px;
+    padding-top: 3.5vh;
+    margin-left: 50px;
+    display: inline-block;
+}
+.knopka1{
+    padding-top: 3.5vh;
+    margin-left: 700px;
+    display: inline-block;
+}
+.knopka2{
+    padding-top: 3.5vh;
+    margin-left: 2px;
+    display: inline-block;
+}
+.container7{
+    background-color: aliceblue;
+    height: 100vh;
+    max-height: 900px;
+    width: 100%;
+    text-align: center;
+}
+.container7 h5{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 40px;
+}
+.container7 .intro{
+    margin-top: 20px;
+    font-size: 15px;
+}
+.block{
+   display: flex;
+   width: 900px;
+   height: 450px;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   margin: 0 auto;
+   margin-top: 20px;
+}
+.block div {
+    width: 260px;
+    height: 200px;
+}
+.block div img{
+    width: 100%;
+    height: 200px;
+}
