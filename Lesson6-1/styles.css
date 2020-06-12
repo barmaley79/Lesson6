@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1600;
+    height: 400px;
+}
+.container div{
+    width: 130px;
+    height: 190px;
+    background-color: yellow;
+}
+.container div:nth-child(8){
+    width: 230px;
+}
+.container div:nth-child(9){
+    align-self: flex-end;
+    width: 100%;
+    background-color: green;
+ }
+ .container div:nth-child(1){
+    background-color: green;
+}

@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1000px;
+    height: 800px;
+    border: 10px solid darkblue;
+    padding-top: 20px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+}
+.container div{
+    width: 30%;
+    height: 250px;
+    background-color: darkblue;
+}
+.container div:nth-child(2){
+    height: 500px;
+}
+.container div:nth-child(4){
+    align-self: flex-end;
+}
+.container div:nth-child(5){
+    align-self: flex-end;
+}
+.container div:nth-child(6){
+    align-self: flex-end;
+}

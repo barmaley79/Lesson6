@@ -1,0 +1,25 @@
+.container1 {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 100%;
+    max-width: 1000px;
+    height: 1000px;
+    background-color: darkblue;
+}
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 70%;
+    height: 800px;
+    background-color:yellow;
+}
+.container3 {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 40%;
+    height: 400px;
+    background-color:red;
+}
