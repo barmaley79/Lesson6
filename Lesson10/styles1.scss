@@ -1,0 +1,11 @@
+@import "section12";
+
+
+@mixin bordered($color, $width) {
+    border: $width solid $color;
+  }
+  
+  .container10 .right_text .Main_Title_right {
+    @include bordered(blue, 1px);  // Call mixin with two values
+  }
+  

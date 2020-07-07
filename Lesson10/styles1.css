@@ -1,0 +1,33 @@
+.container12 .left_icons svg {
+  color: #c89d28;
+}
+
+.container12 .right_text_1 p {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+  color: #000000;
+  font-size: 14px;
+  padding-top: 30px;
+}
+
+.container11 .LR .plan_all, .container11 .LR .plan_all .plan, .container11 .LR .plan_all .plan_description {
+  display: block;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+.container11 .LR .plan_all .plan {
+  font-size: 15px;
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+
+.container11 .LR .plan_all .plan_description {
+  font-size: 10px;
+}
+
+.container10 .right_text .Main_Title_right {
+  border: 1px solid blue;
+}
+/*# sourceMappingURL=styles1.css.map */
