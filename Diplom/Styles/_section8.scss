@@ -1,0 +1,73 @@
+.section8 {
+    background-image: url('../Images/christmas_snow_trees-wide@1X.png');
+    height: 705px;
+    background-position: bottom;
+    /*padding-top: 120px;*/
+    
+}
+.section8 .S8_MainContent {
+    display: flex;
+    justify-content: space-between;
+    border-top: 120px;
+}
+.section8 .S8_MainContent .S8_MC_Left {
+    height: 461px;
+    width: 54%;
+    background-color: #4a5962;
+
+}
+.section8 .S8_MainContent .S8_MC_Right {
+    height: 461px;
+    width: 44%;
+    background-color: #4a5962;
+}
+.section8 .S8_MainContent .S8_MC_Left .contact_info{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: #889196;
+    font-size: 15px;
+    display: block;
+    padding-top: 45px;
+    padding-bottom: 17px;
+}
+.section8 .S8_MainContent .S8_MC_Left :nth-child(7){
+    padding-bottom: 90px; 
+}
+.section8 .S8_MainContent .S8_MC_Left i{
+    height: 1px;
+    width: 80%;
+    display: block;
+    background-color:#889196;;
+}
+.section8 .S8_MainContent .S8_MC_Left .btn{
+    /*text-align: center;*/
+    margin-top: 55px;
+}
+.section8 .S8_MainContent .S8_MC_Left .btn a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color:#214744;
+    text-decoration: none;
+    text-align: center;
+    /*border: solid 2px;
+    border-color: #777879;*/
+    padding: 20px 37px;
+    text-transform: uppercase;
+    background-color:#6eeee4 ;
+}
+.section8 .S8_MainContent .S8_MC_Right .contact_info{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: #889196;
+    font-size: 15px;
+    display: block;
+    padding-top: 15px;
+ }
+ .section8 .S8_MainContent .S8_MC_Right .map{
+     background-image: url('../Images/GoogleMap.png');
+     width: 90%;
+     height: 224px;
+     margin: 0 auto;
+    }
+

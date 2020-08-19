@@ -1,0 +1,78 @@
+.section2{
+    background-color:#f8fafa;
+    height: 986px;
+    padding-top: 130px;
+}
+.section2 h4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    color:#323333;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0px;
+}
+.section2 .S2_Intro {
+    display: block;
+    font-family: 'Merriweather', serif;
+    font-weight: 500;
+    font-size: 18px;
+    color:#5e5f5f;
+    text-align: center;
+    margin: 0px;
+    margin-top: 17px;
+    margin-bottom: 145px;
+}
+
+.section2 .S2_MainContent{
+    display: flex;
+    justify-content: center;
+
+}
+.section2 .S2_MainContent .S2_MC_Left {
+    width: 50%;
+    background-image: url('../Images/Rectangle\ 1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.section2 .S2_MainContent .S2_MC_Right {
+    width: 50%;
+}   
+.section2 .S2_MainContent .S2_MC_Left img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section2 .S2_MainContent .S2_MC_Right h5{
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #3e3f3f;
+    margin-left: 55px;
+}
+.section2 .S2_MainContent .S2_MC_Right p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #6e6f6f;
+    margin-left: 55px;
+    width: 84%;
+}
+.section2 .carusel{
+    display: flex;
+    justify-content: space-between;
+    width: 51px;
+    height: 11px;
+    margin-top: 20px;
+    margin-left: 40%;
+}
+.section2 .dot{
+    width: 11px;
+    height: 11px;
+    background-color:#d0d0d0;
+    border-radius: 3px;
+}
+.section2 .carusel :nth-child(2){
+    background-color:#71f6eb;
+}

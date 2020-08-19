@@ -1,0 +1,88 @@
+.section4{
+    background-color:#f9fbfb;
+    height: 1619px;
+    padding-top: 125px;
+}
+.section4 h4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    color:#323333;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0px;
+}
+.section4 .S4_Intro {
+    display: block;
+    font-family: 'Merriweather', serif;
+    font-weight: 500;
+    font-size: 17px;
+    color:#5e5f5f;
+    text-align: center;
+    margin: 0px;
+    margin-top: 17px;
+    margin-bottom: 110px;
+}
+.section4 .boxes{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.section4 .boxes div {
+    margin-top: 15px;
+}
+.section4 .box1 {
+    background-image: url('../Images/home_dietitian_sectionbg_1.png');
+    width: 655px;
+    height: 423px;
+}
+.section4 .box2 {
+    background-image: url('../Images/img-9.png');
+    filter:brightness(30%) ;
+    width: 475px;
+    height: 423px;
+}
+.section4 .box2 h5{
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 17px;
+    color:#f7f7f7;
+}
+.section4 .box2 p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color:#f7f7f7;
+}
+.section4 .box2 span {
+    font-family: 'Merriweather', serif;
+    font-weight: 500;
+    font-size: 17px;
+    color:#f7f7f7;
+}
+
+.section4 .box3 {
+    background-image: url('../Images/griego3_1x.png');
+    /*filter:brightness(30%) ;*/
+    width: 653px;
+    height: 372px;
+}
+.section4 .box4 {
+    background-image: url('../Images/Rectangle\ 44\ copy\ 5.png');
+    /*filter:brightness(30%) ;*/
+    width: 475px;
+    height: 371px;
+}
+.section4 .box5 {
+    background-image: url('../Images/griego4_1x.png');
+    /*filter:brightness(30%) ;*/
+    width: 475px;
+    height: 371px;
+}
+.section4 .box6 {
+    background-image: url('../Images/blog-3@1X.png');
+    /*filter:brightness(30%) ;*/
+    width: 653px;
+    height: 371px;
+}
