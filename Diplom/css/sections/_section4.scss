@@ -1,0 +1,157 @@
+.section4{
+    background-color:#f9fbfb;
+    height: 1619px;
+    padding-top: 125px;
+}
+.section4 h4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    color:#323333;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0px;
+}
+.section4 .S4_Intro {
+    display: block;
+    font-family: 'Merriweather', serif;
+    font-weight: 500;
+    font-size: 17px;
+    color:#5e5f5f;
+    text-align: center;
+    margin: 0px;
+    margin-top: 17px;
+    margin-bottom: 110px;
+}
+.section4 .boxes{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.section4 .boxes div {
+    margin-top: 15px;
+}
+.section4 .boxes p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color:#f9f9f9;
+}
+.section4 .boxes h5{
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    font-size: 17px;
+    color:#f9f9f9;
+    text-transform: uppercase; 
+}
+.section4 .boxes .btn{
+    margin-top: 40px;
+}
+.section4 .boxes .btn a {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color:#f9f9f9;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+}
+.section4 .box1 {
+    background-image: linear-gradient(rgba(92,232,235, 0.95),rgba(92,232,235, 0.95)), url('../Images/home_dietitian_sectionbg_1.png');
+    /*background-image: url('../Images/home_dietitian_sectionbg_1.png');*/
+    width: 655px;
+    height: 423px;
+}
+.section4 .box1 .text{
+    width: 470px;
+    height: 303px;
+    margin-top: 63px;
+    margin-left: 68px;
+    text-align: left;
+}
+.section4 .box1 .text h5{
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    font-size: 17px;
+    color:#5e5f5f;
+    text-transform: uppercase;
+}
+.section4 .box1 .text p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color:#29625e;
+}
+.section4 .box2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.7)), url('../Images/img-9.png');
+    width: 475px;
+    height: 423px;
+}
+.section4 .box2 .text{
+    width: 312px;
+    height: 175px;
+    margin-top: 185px;
+    margin-left: 80px;
+    text-align: left;
+}
+.section4 .box2 span {
+    font-family: 'Merriweather', serif;
+    font-weight: 500;
+    font-size: 17px;
+    color:#f7f7f7;
+}
+
+.section4 .box3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.7)), url('../Images/griego3_1x.png');
+    /*background-image: url('../Images/griego3_1x.png');
+    /*filter:brightness(30%) ;*/
+    width: 653px;
+    height: 372px;
+}
+.section4 .box3 .text{
+    width: 396px;
+    height: 153px;
+    margin-top: 166px;
+    margin-left: 68px;
+    text-align: left;
+}
+.section4 .box4 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.7)), url('../Images/Rectangle\ 44\ copy\ 5.png');
+    /*background-image: url('../Images/Rectangle\ 44\ copy\ 5.png');
+    /*filter:brightness(30%) ;*/
+    width: 475px;
+    height: 371px;
+}
+.section4 .box4 .text{
+    width: 305px;
+    height: 153px;
+    margin-top: 165px;
+    margin-left: 80px;
+    text-align: left;
+}
+.section4 .box5 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.7)), url('../Images/griego4_1x.png');
+    /*background-image: url('../Images/griego4_1x.png');
+    /*filter:brightness(30%) ;*/
+    width: 475px;
+    height: 371px;
+}
+.section4 .box5 .text{
+    width: 275px;
+    height: 185px;
+    margin-top: 131px;
+    margin-left: 68px;
+    text-align: left;
+}
+.section4 .box6 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.7)), url('../Images/blog-3@1X.png');
+    width: 653px;
+    height: 371px;
+}
+.section4 .box6 .text{
+    width: 396px;
+    height: 185px;
+    margin-top: 131px;
+    margin-left: 80px;
+    text-align: left;
+}

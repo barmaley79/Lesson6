@@ -1,0 +1,93 @@
+.section5{
+    background-color:#ffffff;
+    height: 1315px;
+    padding-top: 125px;
+}
+.section5 h4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    color:#323333;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0px;
+}
+.section5 .S5_Intro {
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    color:#5e5f5f;
+    text-align: center;
+    margin: 0px;
+    margin-top: 17px;
+    margin-bottom: 110px;
+}
+.section5 .boxes{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.section5 .boxes div {
+    margin-top: 15px;
+}
+.section5 .box1 {
+    background-image: url('../Images/Rectangle\ 40.png');
+    width: 371px;
+    height: 441px;
+}
+.section5 .box2 {
+    background-image: url('../Images/Rectangle\ 40\ copy\ 5.png');
+    width: 371px;
+    height: 441px;
+}
+.section5 .box2 .triangle_up{
+    width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+    border-bottom: 20px solid #6ff6eb;
+    padding-bottom: 0;
+    margin-top: 170px;
+    margin-left: 40px;
+}
+.section5 .box2 .monolog{
+    width:336px;
+    height: 242px;
+    background-color: #6ff6eb;
+    margin: 0 auto;
+    margin-top: -25px;
+}
+.section5 .box2 .monolog h5{
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+    font-style: italic;
+    color: #758280;
+}
+.section5 .box2 .monolog h5 span{
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    color: #2c3938;
+}
+.section5 .box3 {
+    background-image: url('../Images/Rectangle\ 40\ copy\ 6.png');
+    width: 371px;
+    height: 441px;
+}
+.section5 .box4 {
+    background-image: url('../Images/Rectangle\ 40\ copy\ 7.png');
+    width: 371px;
+    height: 441px;
+}
+.section5 .box5 {
+    background-image: url('../Images/Rectangle\ 40\ copy\ 7-1.png');
+    width: 371px;
+    height: 441px;
+}
+.section5 .box6 {
+    background-image: url('../Images/Rectangle\ 40.png');
+    width: 371px;
+    height: 441px;
+}

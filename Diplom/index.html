@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Diplom</title>
-    <link rel="stylesheet" href="./Styles/styles.css">
+    <link rel="stylesheet" href="./styles/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@700&family=Raleway:wght@400;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./CSS/all.css">
+    <link rel="stylesheet" href="./css/libs/all.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href=".//css/animate.css">
 </head>
 <body>
     <div class="wrapper">
@@ -22,95 +24,130 @@
                 </div>   
                 <h3 class="intro">Say Hello to <span class="addition">SHOPNO!</span></h3>
                 <h3 class="intro_1"><span class="addition">Agency</span> CORPORATE SHOPNO Theme</h3>
-                <div class="btn">
+                <div class="btn wow slideInLeft" data-wow-delay="1s">
                     <a href="#">Contact Us</a>
                 </div>
                 <div class="glass">
-                   <img src="./Images/Group 18.png" alt="Glass">
+                   <img src="./images/Group 18.png" alt="Glass">
                 </div>
             </div>
         </header>
-        <div class="section2">
+        <section class="section2">
             <div class="center">
-            <h4 class="about">About Us</h4>
-            <span class="S2_Intro">Lorem ipsum dolor sit amet event landing template</span>
-            <div class="S2_MainContent">
-                <div class="S2_MC_Left">
-                    <img src="./Images/Group 16.png" alt="Computer Desk">
-                    <div class="carusel">
-                        <div class="dot"></div>
-                        <div class="dot"></div>
-                        <div class="dot"></div>
-                        <div class="dot"></div>
+                <h4 class="about">About Us</h4>
+                <span class="S2_Intro">Lorem ipsum dolor sit amet event landing template</span>
+                <div class="S2_MainContent">
+                    <div class="S2_MC_Left">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                            <div class="S2_MC_Left_Top">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                      <img src=".//images/Group 16.png" class="d-block w-100" alt="Computer_Desk">
+                                    </div>
+                                    <div class="carousel-item">
+                                      <img src=".//images/Group 16.png" class="d-block w-100" alt="Computer_Desk">
+                                    </div>
+                                    <div class="carousel-item">
+                                      <img src=".//images/Group 16.png" class="d-block w-100" alt="Computer_Desk">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src=".//images/Group 16.png" class="d-block w-100" alt="Computer_Desk">
+                                    </div>
+                                </div>    
+                            </div>
+                        </div>    
+                        <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                    </div>    
+                    <div class="S2_MC_Right">
+                        <h5 class="top_part">We Actually Do amazing works</h5>
+                        <p>A visual approach is an approach to a runway at an airport conducted under instrument flight rules. The pilot must at all times have either the airport or the preceding aircraft in approach correct sight. conducted under instrument flight rules. The pilot must at all times.</p>
+                        <p>Preceding aircraft in approach correct sight. conducted under instrument flight rules.</p>
+                        <h5>why we are the great?</h5>
+                        <p>A visual approach is an approach to a runway at an airport conducted under instrument flight rules. The preceding aircraft in approach correct sight.</p>
                     </div>
                 </div>
-                <div class="S2_MC_Right">
-                    <h5>We Actually Do amazing works</h5>
-                    <p>A visual approach is an approach to a runway at an airport conducted under instrument flight rules. The pilot must at all times have either the airport or the preceding aircraft in approach correct sight. conducted under instrument flight rules. The pilot must at all times.</p>
-                    <p>Preceding aircraft in approach correct sight. conducted under instrument flight rules.</p>
-                    <h5>why we are the great?</h5>
-                    <p>A visual approach is an approach to a runway at an airport conducted under instrument flight rules. The preceding aircraft in approach correct sight.</p>
-                </div>
             </div>
-            </div>
-        </div>
-        <div class="section3">
+        </section>
+        <section class="section3">
             <div class="center">
                 <h4 class="about">featured works</h4>
                 <span class="S3_Intro">Lorem ipsum dolor sit amet event landing template</span>
                 <div class="boxes">
-                    <img src="./Images/Rectangle 2.png" alt="IceCream">
-                    <img src="./Images/Rectangle 2 copy.png" alt="BusinessCards">
-                    <img src="./Images/Rectangle 2 copy 2.png" alt="Bottles">
-                    <img src="./Images/Rectangle 2 copy 3.png" alt="Book">
-                    <img src="./Images/Rectangle 2 copy 4.png" alt="Formulas">
-                    <img src="./Images/Rectangle 2 copy 5.png" alt="Tea">
+                    <img class="wow slideInLeft" src="./images/Rectangle 2.png" alt="IceCream">
+                    <img class="wow slideInLeft" src="./images/Rectangle 2 copy.png" alt="BusinessCards">
+                    <img class="wow bounceInUp" src="./images/Rectangle 2 copy 2.png" alt="Bottles">
+                    <img class="wow bounceInUp" src="./images/Rectangle 2 copy 3.png" alt="Book">
+                    <img class="wow slideInRight" src="./images/Rectangle 2 copy 4.png" alt="Formulas">
+                    <img class="wow slideInRight" src="./images/Rectangle 2 copy 5.png" alt="Tea">
                 </div>
             </div>
-        </div>
-        <div class="section4">
+        </section>
+        <section class="section4">
             <div class="center">
                 <h4 class="about">our services</h4>
                 <span class="S4_Intro">Lorem ipsum dolor sit amet event landing template</span>
                 <div class="boxes">
                     <div class="box1">
+                        <div class="text">
                         <h5>Designing is The CooL LOVE FOR.</h5>
                         <p>Our most popular service is our Virtual Receptionist. We know that sometimes it’s something and you middle most this job was posted less than five minutes ago, and we think it’s a good match for you. If you submit a proposal now, you’ll be one of the first candidates. You may even catch the client while they’re still online.</p>
+                        <a href="#"><i class="fas fa-times" href="#"></i></a>
+                        </div>
                     </div>
                     <div class="box2">
+                        <div class="text">
                         <h5>cool psd Design</h5>
                         <p>Our most popular service is our we know that sometimes it’s something and you middle most..</p>
-                        <span>Know More</span>
-                        <span>--></span>
+                        <div class="btn">
+                            <a href="#">Know More --></a>
+                        </div>
+                        </div>
                     </div>
                     <div class="box3">
+                        <div class="text">
                         <h5>Designing is The Cool</h5>
                         <p>Our most popular service is our Virtual Receptionist. We know that ...</p>
-                        <span>Know More</span>
-                        <span>--></span>
+                        <div class="btn">
+                            <a href="#">Know More --></a>
+                        </div>
+                        </div>
                     </div>
                     <div class="box4">
+                        <div class="text">
                         <h5>PSD TO HTML KORI</h5>
                         <p>We know that sometimes it’s something and you middle most..</p>
-                        <span>Know More</span>
-                        <span>--></span>
+                        <div class="btn">
+                            <a href="#">Know More --></a>
+                        </div>
+                        </div>
                     </div>
                     <div class="box5">
+                        <div class="text">
                         <h5>cool psd Design</h5>
                         <p>Our most popular service is our new virtual Receptionist you middle most..</p>
-                        <span>Know More</span>
-                        <span>--></span>
+                        <div class="btn">
+                            <a href="#">Know More --></a>
+                        </div>
+                        </div>
                     </div>
                     <div class="box6">
+                        <div class="text">
                         <h5>Designing is The Cool FOR</h5>
                         <p>Our most popular service is our Virtual Receptionist. We know that sometimes it’s something and you middle most..</p>
-                        <span>Know More</span>
-                        <span>--></span>
+                        <div class="btn">
+                            <a href="#">Know More --></a>
+                        </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="section5">
+        </section>
+        <section class="section5">
             <div class="center">
                 <h4 class="about">our services</h4>
                 <span class="S5_Intro">Lorem ipsum dolor sit amet event landing template</span>
@@ -119,12 +156,14 @@
                     <div class="box2">
                         <div class="triangle_up"></div>
                         <div class="monolog">
-                            <h5><span>AL RAYHAN</span>/ UI Designer</h5>
+                            <div class="text">
+                            <h5><span>AL RAYHAN</span> / UI Designer</h5>
                             <p>Lorem Ipsum is not simply is  an action designer random text It has roots in a piece. </p>
-                            <i class="fab fa-pinterest-p"></i>
-                            <i class="fab fa-facebook-f"></i>
-                            <i class="fab fa-twitter"></i>
-                            <i class="fas fa-basketball-ball"></i>
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fas fa-basketball-ball"></i></a>
+                            <a href="#"><i class="far fa-envelope"></i></a>
+                            </div>
                         </div>
                     </div>    
                     <div class="box3"></div>
@@ -133,22 +172,37 @@
                     <div class="box6"></div>
                 </div>
             </div>
-        </div>
+        </section>
         <section class="section6">
             <div class="center">
             <h4 class="about">what they says</h4>
             <span class="S6_Intro">Lorem ipsum dolor sit amet event landing template</span>
             <div class="S6_MainContent">
                 <div class="S6_MC_Left">
-                    <div class="S6_MC_Left_Top">
-                    <img src="./Images/Rounded Rectangle 3 copy.png" alt="BeardMan">
-                    </div>
-                    <div class="carusel">
-                        <div class="dot"></div>
-                        <div class="dot"></div>
-                        <div class="dot"></div>
-                        <div class="dot"></div>
-                    </div>
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <div class="S6_MC_Left_Top">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                  <img src=".//images/Rectangle 40.png" class="d-block w-100" alt="girl">
+                                </div>
+                                <div class="carousel-item">
+                                  <img src=".//images/Rectangle 40 copy 6.png" class="d-block w-100" alt="smiling_cups">
+                                </div>
+                                <div class="carousel-item">
+                                  <img src=".//images/Rectangle 40 copy 7-1.png" class="d-block w-100" alt="cup">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src=".//images/Rectangle 40 copy 7.png" class="d-block w-100" alt="cup">
+                                </div>
+                            </div>    
+                        </div>
+                    </div>    
+                    <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
                 </div>
                 <div class="S6_MC_Right">
                     <div class="S6_MC_Right_top">
@@ -175,31 +229,61 @@
             </div>
         </section>
         <section class="section7">
-            <img src="./Images/1 copy 2.png" alt="many_logos">
+            <div class="center">
+                <img class="icons" src="./images/1 copy 2.png" alt="many_logos">
+            </div>    
         </section>
         <section class="section8">
             <div class="center">
                 <div class="S8_MainContent">
                     <div class="S8_MC_Left">
-                        <span class="contact_info">Name*</span>
-                        <i></i>
-                        <span class="contact_info">Subject*</span>
-                        <i></i>
-                        <span class="contact_info">E-mail*</span>
-                        <i></i>
-                        <span class="contact_info">Massage*</span>
-                        <i></i>
-                        <div class="btn">
-                            <a href="#">SEND MESSAGE</a>
-                        </div>
+                        <form>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Name*">
+                              <i></i>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Subject*">
+                              <i></i>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="E-mail*">
+                                <i></i>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="Message*"></textarea>
+                                <i></i>
+                            </div>
+                            <button type="submit" class="btn-btn-primary">SEND MESSAGE</button>
+                        </form>
                     </div>
                     <div class="S8_MC_Right">
-                        <span class="contact_info">Adress line 1</span> 
-                        <span class="contact_info">Adress line 2</span>
-                        <span class="contact_info">Phone: +548 945645</span>
-                        <span class="contact_info">Fax: +456456 54546</span>
-                        <span class="contact_info">Web: www.designagency.net</span>
-                        <span class="contact_info">E-mail: info@designagency.net</span>
+                        <form>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Adress line 1">
+                             
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Adress line 2">
+                              
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Phone: +548 945645">
+                                
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Fax: +456456 54546">
+                               
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Web: www.designagency.net">
+                                
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="E-mail: info@designagency.net">
+                               
+                            </div>
+                          </form>
                         <div class="map"></div>
                     </div>
                 </div>
@@ -208,15 +292,23 @@
         <footer>
             <h6>Follow Us</h6>
             <div class="icons">
-                <div>
+                <a href="#"><div class="first">
                     <i class="fab fa-pinterest-p"></i>
-                </div>
-                <div><i class="fab fa-facebook-f"></i></div>
-                <div><i class="fab fa-twitter"></i></div>
-                <div><i class="fas fa-basketball-ball"></i></div>
+                </div></a>
+                <a href="#"><div><i class="fab fa-facebook-f"></i></div></a>
+                <a href="#"><div><i class="fab fa-twitter"></i></div></a>
+                <a href="#"><div><i class="fas fa-basketball-ball"></i></div></a>
             </div>
             <p class="copywrite">Copyright Masum Parvej, All Rights Reserved</p>
         </footer>
     </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="./js/libs/all.js"></script>
+    <script src="./js/libs/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 </body>
 </html>

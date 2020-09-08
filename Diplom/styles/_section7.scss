@@ -1,0 +1,16 @@
+.section7{
+    background-color:#ffffff;
+    height: 385px;
+    padding-top: 100px;
+}
+.section7 .icons{
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+@media (max-width:768px){
+    .section7 .center{
+        max-width: 740px;
+    }
+}

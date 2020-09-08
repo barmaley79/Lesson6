@@ -1,0 +1,40 @@
+footer {
+    background-color:262b2e;
+    height: 310px;
+    padding-top: 130px;
+    text-align: center;
+}
+footer h6{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: #889196;
+    font-size: 15px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+footer .icons {
+    display: flex;
+    justify-content: space-between;
+    width: 207px;
+    margin: 0 auto;
+}
+footer .icons div {
+    width: 47px;
+    height: 41px;
+    background-color:#3f4244;
+  
+}
+footer .icons div :nth-child(1){
+    background-color:#6eeee4; 
+}
+footer .icons div i{
+    background-color:#bec0c1 ;
+    font-size: 17px;
+ }
+ footer p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    color: #7d8082;
+    font-size: 16px;
+    margin-top: 43px;
+ }
